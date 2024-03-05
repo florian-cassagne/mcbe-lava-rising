@@ -1,0 +1,11 @@
+----- v1.1 -----
+
+-Lava rising start at Y=50 or Y=0 and rise to Y=+1 level every 1 minute.
+-2 version of this Add-on : One recommended for low-end devices, and an other for
+high-end devices.
+
+
+----- v1.0 -----
+
+-Lava rising start at Y=50 or Y=0 and rise to Y=+1 level every 10 seconds.
+-2 modes : Lava starts at level Y=0 or lava starts at level Y=50

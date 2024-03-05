@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "The lava is rising bit by bit in your world, your world go end... This version generate lava with a better quality, but not recommended for low-end devices.",
+        "name": "Lava Rising Addon - 1.1 (high)",
+        "uuid": "f0005c01-0001-0001-0000-00000a00000a",
+        "version": [1, 1, 0],
+        "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "Lava Rising Addon - 1.1 (high)",
+            "type": "data",
+            "uuid": "f0005c01-0001-0001-0000-00000a00000b",
+            "version": [1, 1, 0]
+        }
+    ],
+    "subpacks": [
+    {
+      "folder_name": "lava-from-0",
+      "name": "Lava starts at Y=0",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "lava-from-50",
+      "name": "Lava starts at Y=50",
+      "memory_tier": 2
+    }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.walk": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walking": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/function BB_loop_player",
+                        "/function ED_loop_player",
+                        "/function WB_loop_player",
+                        "/function WR_loop_player",
+                        "/function LR_loop_player"
+                        // Compatibility for all Floshox's Add-Ons
+					]
+				},
+				"walking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/function BB_loop_player",
+                        "/function ED_loop_player",
+                        "/function WB_loop_player",
+                        "/function WR_loop_player",
+                        "/function LR_loop_player"
+                        // Compatibility for all Floshox's Add-Ons
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.loop_executer": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walking": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function BB_loop_main",
+						"/function BB_loop_mud_generation",
+						"/function BB_loop_ruby_power",
+						"/function BB_loop_copper_power",
+						"/function ED_loop_main",
+						"/function LR_loop_main",
+						"/function WR_loop_main"
+                        
+					]
+				},
+				"walking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function BB_loop_main",
+						"/function BB_loop_mud_generation",
+						"/function BB_loop_ruby_power",
+						"/function BB_loop_copper_power",
+						"/function ED_loop_main",
+						"/function LR_loop_main",
+						"/function WR_loop_main"
+					]
+				}
+			}
+		}
+	}
+}

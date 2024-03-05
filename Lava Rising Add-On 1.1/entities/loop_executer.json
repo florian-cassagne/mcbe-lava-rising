@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "betterbedrock:loop_executer",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+            // ---- Added ----
+				"animate": [
+					"loop_executer"
+				]
+			},
+            // ---- Added ----
+			"animations": {
+				"loop_executer": "controller.animation.loop_executer"
+                
+			}
+		},
+        
+/////////////////////////////////////
+        
+		"component_groups": {
+            
+    },
+    
+/////////////////////////////////////        
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"technical", "command_executer"
+				]
+			},
+            "minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 20,
+				"height": 20
+			},
+            "minecraft:scale": {
+				"value": 0.05
+            },
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.0
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0,
+				"breathesAir": true,
+				"breathesWater": true,
+                "breathesLava": true
+			},
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:scaffolding_climber": {}
+            
+		},
+        
+ /////////////////////////////////////       
+        
+        
+		"events": {
+            
+		}
+	}
+}
